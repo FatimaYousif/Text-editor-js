@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG EFFECTS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86a62bd63e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- DESCRIPTION -->
+    <div class="description">
+        <h1>TEXT EDITOR</h1>
+        <p>Little Text Editor-Change font color and font style of your own </p>
+    </div>
+
+
+    <!-- COLOR PALATTE -->
+    <div class="colors">
+     <button class="red" onclick="change('#000080')"></button>   
+     <button class="yellow" onclick="change('#FA8072')"></button>   
+     <button class="blue" onclick="change('#CD5C5C')"></button>   
+     <button class="pink" onclick="change('#FF00FF')"></button>   
+     <button class="purple" onclick="change('purple')"></button>  
+     <button class="teal" onclick="change('#008080')"></button>  
+     <button class="black" onclick="change('black')"></button>  
+    </div>
+    
+  <div class="styles">
+    <button class="bold" onclick="changeStyle('normal')"><i class="fab fa-neos"></i></button>   <br>
+    <button class="italic" onclick="changeStyle('italic')">  <i class="fas fa-italic"></i></button> <br>
+    <button class="underline" onclick="changeStyle('oblique 60deg')" style="padding: 1.5em 1.7em;">/</button>  
+    <button class="underline" onclick="changeWeight('bold')" style="padding: 1.5em 1.7em; "><i class="fas fa-bold"></i></button>  
+  
+</div>
+
+    <!-- FACE REVEALS -->
+    <div class="text">
+        <textarea  id="text" cols="100" rows="7" placeholder="insert text here"></textarea>
+    </div>
+    <div class="show">
+        <button onclick="show()" id="show">SHOW TEXT</button>
+    </div> 
+    
+        <div class="face">
+        <p><span> </span></p>
+    </div>
+
+    
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body
+{
+    background-color: cyan;
+}
+.description
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align:Center;
+    font-size: 1.5em;
+    margin: 1% 0;
+}
+
+.colors,.styles
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.red,.yellow,.purple,.blue,.black,.pink,.teal
+{
+    border:none;
+    padding: 1.5em;
+    margin:0 2px;
+}
+
+.red
+{
+    background-color:#000080;
+}
+.yellow
+{
+    background-color:#FA8072;
+}
+.purple
+{
+    background-color:purple;
+}
+.blue
+{
+background-color: #CD5C5C;
+}
+.black
+{
+ background-color:black;
+}
+.pink{
+background-color: #FF00FF;
+}
+.teal{
+    background-color: #008080;
+   
+} 
+
+.face i
+{
+    font-size: 3em;
+    color:yellow;
+}
+.face{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:black;
+}
+.face p{
+    font-size:2em;
+
+}
+.styles i
+{
+    color:black;
+}
+.styles button{
+    border:none;
+    padding: 1.5em;
+    margin:0 2px;
+    background-color: white;
+    color:black;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    margin-bottom: 2%; 
+}
+.show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+#show
+{
+    border:none;
+    padding: 1.5em;
+    /* margin:0 2px; */
+    background-color: pink;
+    color:black;
+    border: 1px solid black;
+    border-radius: 3em;
+    font-weight: bold;
+}
